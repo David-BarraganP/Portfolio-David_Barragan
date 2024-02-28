@@ -1,0 +1,90 @@
+:root{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 16px;
+    --text-ligth: 200;
+    --text-mediun: 400;
+    --text-bold: 600; 
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+.body--ligth {
+    --bg: #f0f0f0;
+    --bg-secondary: white;
+    --text: #222;
+    --morph1: #e5b2f7;
+    --morph2: #fff4a3;
+} 
+
+.body--dark {
+    --bg: #2B2A33;
+    --bg-secondary: black;
+    --text: #f0f0f0;
+    --morph1: #e0cd3d;
+    --morph2: #0615b9;
+}
+
+.body {
+    background-color: var(--bg);
+    color: var(--text);
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    max-width: 100%;
+}
+
+
+/* text selecction */
+
+::selection {
+     background-color: var(--text);
+     color: var(--bg-secondary);
+}
+
+/* scroll */
+
+/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+::-webkit-scrollbar-button:increment,
+::-webkit-scrollbar-button {
+    display: none;
+} 
+
+::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--text);
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+    border: none;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;  
+    background-color:  var(--bg);
+}
+
+
+
+
+
+
+
+
