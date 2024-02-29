@@ -1,3 +1,55 @@
 .nav {
+    display: flex;
+    width: 100%;
+    width: 100%;
+    position: fixed;
+    height: 5vh;
+    z-index: 3;
+    padding: 0 1rem;
+    backdrop-filter: blur(10px);
+    align-items: center;
+   
     
+   
+}
+
+.nav--menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+}
+
+.nav__ul {
+    display: flex;
+    column-gap: 2rem;
+    list-style-type: none;
+    color: var(--text);
+    
+}
+
+.nav__li > a {
+    color: var(--text);
+
+}
+
+.nav > span {
+    display: none;
+}
+
+
+@media (max-width:950px) {
+    .nav > span {
+        display: block;
+    }
+
+    .nav--menu {
+        display: none;
+    }
+
+    .nav {
+        justify-content: flex-end;
+        padding:10px;
+    }
 }
