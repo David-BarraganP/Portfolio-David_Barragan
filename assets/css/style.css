@@ -21,8 +21,8 @@
     --bg: #f0f0f0;
     --bg-secondary: white;
     --text: #222;
-    --morph1: #e5b2f7;
-    --morph2: #fff4a3;
+    --morph1: #e0d16b;
+    --morph2: #5b66d8;
 } 
 
 .body--dark {
@@ -38,6 +38,9 @@
     color: var(--text);
     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
     max-width: 100%;
+    --white: #f0f0f0;
+    height: auto;
+    position: relative;
 }
 
 
@@ -50,36 +53,33 @@
 
 /* scroll */
 
-/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
 
 ::-webkit-scrollbar {
     -webkit-appearance: none;
-}
-
-::-webkit-scrollbar:vertical {
-    width:10px;
-}
-
-::-webkit-scrollbar-button:increment,
-::-webkit-scrollbar-button {
+  }
+  
+  ::-webkit-scrollbar:vertical {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-button:increment,
+  ::-webkit-scrollbar-button {
     display: none;
-} 
-
-::-webkit-scrollbar:horizontal {
+  }
+  
+  ::-webkit-scrollbar:horizontal {
     height: 10px;
-}
-
-::-webkit-scrollbar-thumb {
+  }
+  
+  ::-webkit-scrollbar-thumb {
     background-color: var(--text);
-    border-radius: 20px;
-    border: 2px solid #f1f2f3;
-    border: none;
-}
-
-::-webkit-scrollbar-track {
-    border-radius: 10px;  
-    background-color:  var(--bg);
-}
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: var(--bg);
+  }
 
 
 
