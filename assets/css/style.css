@@ -5,6 +5,7 @@
     --text-ligth: 200;
     --text-mediun: 400;
     --text-bold: 600; 
+    scroll-behavior: smooth;
 }
 
 *,
