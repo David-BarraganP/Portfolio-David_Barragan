@@ -15,11 +15,11 @@ document.addEventListener("DOMContentLoaded", function () {
       if (currentMode === 'light_mode') {
         modeText.textContent = 'dark_mode';
         body.classList.remove('body--dark');
-        document.getElementById('header_logo').src = './assets/img/Imagen1.png';
+        document.getElementById('header_logo').src = '/assets/img/Imagen1.png';
       } else {
         modeText.textContent = 'light_mode';
         body.classList.add('body--dark')
-        document.getElementById('header_logo').src = './assets/img/Image.png';
+        document.getElementById('header_logo').src = '/assets/img/Image.png';
       }
   
       // window.alert('Cambio de modo realizado');
