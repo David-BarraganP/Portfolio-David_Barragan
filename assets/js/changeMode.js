@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (currentMode === 'light_mode') {
         modeText.textContent = 'dark_mode';
         body.classList.remove('body--dark');
-        document.getElementById('header_logo').src = './assets/img/imagen1.png';
+        document.getElementById('header_logo').src = './assets/img/imagenlight.png';
       } else {
         modeText.textContent = 'light_mode';
         body.classList.add('body--dark')
