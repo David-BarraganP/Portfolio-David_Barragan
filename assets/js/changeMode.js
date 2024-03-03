@@ -16,10 +16,12 @@ document.addEventListener("DOMContentLoaded", function () {
         modeText.textContent = 'dark_mode';
         body.classList.remove('body--dark');
         document.getElementById('header_logo').src = './assets/img/imagenlight.png';
+        // document.querySelector('#header_logo')
       } else {
         modeText.textContent = 'light_mode';
         body.classList.add('body--dark')
         document.getElementById('header_logo').src = './assets/img/image.png';
+        // document.querySelector('#header_logo')
       }
   
       // window.alert('Cambio de modo realizado');

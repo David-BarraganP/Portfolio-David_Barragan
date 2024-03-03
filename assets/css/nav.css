@@ -71,7 +71,7 @@
     align-items: flex-end;
     z-index: 3;
     backdrop-filter: blur(15px);
-     height: 94vh;
+    height: 94vh;
     max-height: 564px;
     overflow-y: auto;
     transition: transform 0.5s ease-in-out;

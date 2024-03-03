@@ -12,6 +12,7 @@ btnchangeLanguage.addEventListener('click', function (){
             phrase.textContent = translation
         }
         document.getElementById('downloadCV').href ='./assets/cv/CV-DB-ENGLISH.jpeg'
+        // document.querySelector('#downloadCV')
         language = 'en'
     } else {
         for(const phrase of elementsToTranslate) {
@@ -19,6 +20,7 @@ btnchangeLanguage.addEventListener('click', function (){
             phrase.textContent = translation
         }
         document.getElementById('downloadCV').href ='./assets/cv/CV-DB-ESPAÑOL.jpeg'
+        // document.querySelector('#downloadCV')
         language = 'es' 
     }
 })
