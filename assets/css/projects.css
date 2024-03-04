@@ -47,7 +47,8 @@
   }
   
   .article__img {
-    width: 70%;
+    width: 75%;
+    border-radius: 7%;
   }
   
   
@@ -73,8 +74,8 @@
     cursor: pointer;
     background-color: var(--text);
     color: var(--bg-secondary);
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
   }
   
   
