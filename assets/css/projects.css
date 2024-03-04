@@ -1,3 +1,9 @@
+.section__h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 800;
+}
+
 .article {
     width: 50%;
     margin: 0 auto;
@@ -70,6 +76,7 @@
     width: 2rem;
     height: 2rem;
   }
+  
   
   .article__h4 {
     font-size: 1rem;
