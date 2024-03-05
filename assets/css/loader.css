@@ -1,0 +1,31 @@
+/* loader  mientras  acragar la pagina*/
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 100hv;
+     background-color:#000;
+    z-index: 102;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity .4s ease-in-out;  }
+
+  .loader.hidden {
+    opacity: 0;
+    visibility:hidden ;
+  }
+  
+  .loader img {
+    width: 250px;
+    height: 250px;
+    display: block;
+  
+  
+  }

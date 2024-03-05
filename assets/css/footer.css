@@ -73,7 +73,7 @@
     color: #2867b2;
   }
   
-  @media (max-width:950px) {
+  @media (max-width:750px) {
     .footer-distributed {
       flex-direction: column;
       row-gap: 3rem;

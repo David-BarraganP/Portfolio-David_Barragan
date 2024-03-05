@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="./assets/css/projects.css">
   <link rel="stylesheet" href="./assets/css/reviews.css">
   <link rel="stylesheet" href="./assets/css/form.css">
+  <link rel="stylesheet" href="./assets/css/loader.css">
 
   <link rel="shortcut icon" href="./assets/img/Imagen1.png" type="image/x-icon">
 
@@ -69,6 +70,10 @@
 
 <body class="body body--ligth body--dark">
   <div id="progress"></div>
+
+  <div  id="loader" class="loader">
+    <img src="https://i.gifer.com/758X.gif" alt="loader">
+  </div>
 
   <nav class="nav">
 
@@ -258,23 +263,52 @@
             <h3 class="article__h3">Weather App</h3>
             <p class="article__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, atque.</p>
             <h4 class="article__h4">React, Tealwind, SpotifyApi</h4>
-          </li>
-          
+          </li>  
         </ul>
 
         <button class="article__button rigth">
           <i class='bx bx-right-arrow-alt'></i>
         </button>
+        
 
       </article>
     </section>
 
-
-
     <section id="reviews" class="section section--reviws ">
       <h2 data-translate-en="Reviews" data-translate-es="Reseñas" class="section__h2">Reseñas</h2>
       <ul class="ul--review" id="reviews-list">
-        <!-- aqui insertaremos los li -->
+        <li class="review-card">
+          <span class="reviews__tag">Frontend Developer</span>
+          <h3 class="reviews__name">David Barragán</h3>
+        </div>
+      </div>
+      <p class="reviews__text">
+        "David Barragán es un programador web altamente talentoso y comprometido. Su dedicación para dominar 
+        las complejidades de JavaScript, HTML y CSS es evidente en la calidad de su trabajo."
+      </p>
+        </li>
+
+        <li class="review-card">
+          <span class="reviews__tag">Frontend Developer</span>
+          <h3 class="reviews__name">David Barragán</h3>
+        </div>
+      </div>
+      <p class="reviews__text">
+        "David Barragán es un programador web altamente talentoso y comprometido. Su dedicación para dominar 
+        las complejidades de JavaScript, HTML y CSS es evidente en la calidad de su trabajo."
+      </p>
+        </li>
+
+        <li class="review-card">
+          <span class="reviews__tag">Frontend Developer</span>
+          <h3 class="reviews__name">David Barragán</h3>
+        </div>
+      </div>
+      <p class="reviews__text">
+        "David Barragán es un programador web altamente talentoso y comprometido. Su dedicación para dominar 
+        las complejidades de JavaScript, HTML y CSS es evidente en la calidad de su trabajo."
+      </p>
+        </li>
       </ul>
     </section>
 
@@ -394,9 +428,11 @@
   <script src="./assets/js/menu-responsive.js"></script>
   <script src="./assets/js/yearText.js"></script>
   <script src="./assets/js/animation-scroll.js"></script>
-  <script src="./assets/js/promese.js"></script>
+  <script src="./assets/js/slider.js"></script>
   <script src="./assets/js/asyncAwait.js"></script>
   <script src="./assets/js/form.js"></script>
+  <script src="./assets/js/loader.js"></script>
+  <!-- <script src="./assets/js/promese.js"></script> -->
 </body>
 
 </html>
