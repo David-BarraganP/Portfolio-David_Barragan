@@ -1,7 +1,5 @@
 // document.addEventListener('DOMContentLoaded', function () {
 
-
-
 //   //asymc/await seguimos usando promesas. Tomaremos distancia del .then(), 'tomamamos distancia de esa forma tradiocional de resolver promesas'
 
 //   const URL = 'https://fundametos-api-porfolios-dev-exsn.2.ie-1.fl0.io/api/v1/reviews'
@@ -29,16 +27,20 @@
 //       </li>
         
 //         `
-
 //       });
-
-
-//     } catch (error) {
-//       console.log(error);
-//     }
-
-//   }
-
-
 //   reviews(URL)
 // })
+
+// reviws
+// Selecciona todas las reseñas
+const reviewCards = document.querySelectorAll('.review-card');
+
+// Muestra solo las primeras tres reseñas
+reviewCards.forEach((card, index) => {
+    if (index < 3) {
+        card.style.display = 'block';
+    } else {
+        card.style.display = 'none';
+    }
+});
+
