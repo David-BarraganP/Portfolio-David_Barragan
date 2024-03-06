@@ -47,7 +47,7 @@
   
   .review-details {
     padding: 1.5rem;
-    color: #f0db4f;
+    color: var( --morph1);
    
   }
 

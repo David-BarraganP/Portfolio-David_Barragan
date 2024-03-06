@@ -15,7 +15,7 @@
     align-items: center;
     opacity: 1;
     visibility: visible;
-    transition: opacity .4s ease-in-out;  }
+    transition: opacity .5s ease-in-out;  }
 
   .loader.hidden {
     opacity: 0;

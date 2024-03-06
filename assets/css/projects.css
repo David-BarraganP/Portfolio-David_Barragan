@@ -83,7 +83,7 @@
     font-size: 1rem;
     border-radius: 30px;
     padding: 10px 20px;
-    background-color:#f0db4f;
+    background-color:var(--morph2);
     text-align: center;
   }
   
@@ -91,6 +91,18 @@
     font-size: 1.5rem;
     text-align: center;
   }
+
+  .article__li-a {
+    background-color: var(--morph1);
+    color: var(--bg-secondary);
+    border-radius: 30px;
+    padding: 5px;
+  }
+
+  .article__li-a:hover {
+    font-size: 20px;
+  }
+
   
   @media (max-width:750px) {
     .article {
