@@ -92,6 +92,12 @@
     text-align: center;
   }
 
+  .article__li-d{
+    display:flex;
+    gap:1rem;
+  }
+
+
   .article__li-a {
     background-color: var(--morph1);
     color: var(--bg-secondary);
@@ -100,6 +106,17 @@
   }
 
   .article__li-a:hover {
+    font-size: 21px;
+  }
+
+  .article__li-b {
+    background-color: var(--morph1);
+    color: var(--bg-secondary);
+    border-radius: 30px;
+    padding: 5px;
+  }
+
+  .article__li-b:hover {
     font-size: 20px;
   }
 
